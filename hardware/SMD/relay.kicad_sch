@@ -938,7 +938,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 166.37 102.87)
+			(xy 165.1 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1038,16 +1038,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 163.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2bd141-61e6-4ee7-91d6-c26bda89e6a2")
-	)
-	(wire
-		(pts
 			(xy 165.1 102.87) (xy 165.1 113.03)
 		)
 		(stroke
@@ -1118,6 +1108,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 60.96) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c4c0d-603a-4a80-845d-284e2f4d1c90")
+	)
+	(wire
+		(pts
 			(xy 173.99 53.34) (xy 171.45 53.34)
 		)
 		(stroke
@@ -1148,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 166.37 97.79)
+			(xy 163.83 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 166.37 60.96)
+			(xy 163.83 60.96) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 166.37 66.04)
+			(xy 165.1 66.04) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 166.37 100.33)
+			(xy 147.32 100.33) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 166.37 63.5)
+			(xy 147.32 63.5) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1266,8 +1266,31 @@
 		)
 		(uuid "ffe096fe-1cf6-482a-9a8f-653b214e3467")
 	)
+	(label "NO1"
+		(at 165.1 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eae489d-d05e-4f8a-b964-da9d2a22d76a")
+	)
+	(label "NC2"
+		(at 165.1 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12109c7a-3d98-4cb3-a1de-eb9bab88eaf4")
+	)
 	(label "V+"
 		(at 173.99 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,6 +1301,7 @@
 	)
 	(label "Coil2"
 		(at 113.03 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1288,6 +1312,7 @@
 	)
 	(label "Coil2"
 		(at 146.05 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,6 +1323,7 @@
 	)
 	(label "Coil1"
 		(at 113.03 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1308,6 +1334,7 @@
 	)
 	(label "V+"
 		(at 113.03 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1316,8 +1343,20 @@
 		)
 		(uuid "731f49a3-7648-4308-a023-41ebee6105bd")
 	)
+	(label "COM1"
+		(at 165.1 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e87db4-2e34-4bb6-9e73-7788f955451c")
+	)
 	(label "V+"
 		(at 173.99 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,8 +1365,31 @@
 		)
 		(uuid "cb96f207-feec-4be9-a882-923f251f3fcb")
 	)
+	(label "NO2"
+		(at 165.1 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daf9c3dc-5635-4c5d-8481-4ae67d22f7d9")
+	)
+	(label "NC1"
+		(at 163.83 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f404f33f-3dda-4ec5-b755-0482809b62f8")
+	)
 	(label "Coil1"
 		(at 146.05 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,6 +1397,17 @@
 			(justify right bottom)
 		)
 		(uuid "f53d0b69-8596-44bf-b11f-15668395662e")
+	)
+	(label "COM2"
+		(at 165.1 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffba71c1-cd77-4988-947f-948df9a77f36")
 	)
 	(symbol
 		(lib_id "custom_kicad_lib_sk:G6K-2F-Y-TR DC12")
@@ -1630,7 +1703,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 171.45 100.33 0)
+		(at 173.99 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1639,7 +1712,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7b2022e-0cd6-4aa2-be79-aa14bea7c2e0")
 		(property "Reference" "J5"
-			(at 173.99 100.3299 0)
+			(at 176.53 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1721,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 171.45 106.68 0)
+			(at 173.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1730,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_3-G-3.5_1x03_P3.50mm_Vertical"
-			(at 171.45 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1748,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1757,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C192778"
-			(at 171.45 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1766,7 @@
 			)
 		)
 		(property "Mating Part#" "C560231"
-			(at 171.45 100.33 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1806,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 171.45 63.5 0)
+		(at 173.99 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1742,7 +1815,7 @@
 		(fields_autoplaced yes)
 		(uuid "b75f61c2-73e3-4d6a-9c64-727b767d3741")
 		(property "Reference" "J4"
-			(at 173.99 63.4999 0)
+			(at 176.53 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1824,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 171.45 69.85 0)
+			(at 173.99 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1833,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
-			(at 171.45 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1851,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1860,7 @@
 			)
 		)
 		(property "JLCPCB Part#" "C22380440"
-			(at 171.45 63.5 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
