@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5b0fb525-835e-4f66-9891-1c410863fb00")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 146.05 92.71)
+		(size 12.7 6.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b678fea-bddc-48cc-88a8-d68fb55c6257")
+		(property "Sheetname" "relay2"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 146.05 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "unifrog-latching-relay-SMD"
+				(path "/5b0fb525-835e-4f66-9891-1c410863fb00"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

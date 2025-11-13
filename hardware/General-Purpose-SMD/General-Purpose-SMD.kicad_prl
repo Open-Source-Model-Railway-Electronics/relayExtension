@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 40,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -61,6 +61,7 @@
       34,
       35,
       36,
+      39,
       40
     ],
     "visible_layers": "ffcffff_ffffffff",
@@ -73,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "General-Purpose-THT.kicad_prl",
+    "filename": "General-Purpose-SMD.kicad_prl",
     "version": 3
   },
   "project": {

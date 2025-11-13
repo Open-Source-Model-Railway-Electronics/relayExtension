@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 44,
-    "active_layer_preset": "",
-    "auto_track_width": true,
+    "active_layer": 36,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
@@ -63,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "relayExtension-1.kicad_prl",
+    "filename": "unifrog-latching-relay-THT.kicad_prl",
     "version": 3
   },
   "project": {

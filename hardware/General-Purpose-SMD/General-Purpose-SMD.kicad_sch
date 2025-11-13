@@ -692,7 +692,7 @@
 			)
 		)
 		(instances
-			(project "relayExtension-1"
+			(project "General-Purpose-SMD"
 				(path "/e7280eb5-1386-47ea-974c-c755a08b04e7"
 					(page "2")
 				)
